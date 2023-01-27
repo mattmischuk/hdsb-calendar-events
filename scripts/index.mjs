@@ -88,7 +88,6 @@ const createICSEvent = ({ id, startDate, endDate, description, created }) => {
 
   const targetDir = 'dist'
   const icsFile = cal.toString()
-  console.log(description)
   const formattedDescription = description
     .replace(new RegExp(`${schoolBoard}:`, 'g'), '') // remove schoolBoard: from description
     .toLowerCase()
