@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Matt Mischuk <m.mischuk@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=v18.13.0"
+  },
   "scripts": {
     "start": "node scripts/index.mjs --experimental-modules",
     "clean": "rimraf dist"
